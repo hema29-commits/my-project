@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EduVerse — Course Admission</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js"></script>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Edu<span>Verse</span></div>
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#courses">Courses</a></li>
+    <li><a href="#register">Admissions</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <button class="nav-cta" onclick="document.getElementById('register').scrollIntoView({behavior:'smooth'})">Apply Now</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-badge">✦ 2025-26 Admissions Open</div>
+    <h1 class="hero-title">
+      Learn from the<br>
+      <em>World's Best</em><br>
+      <span class="gold">Educators</span>
+    </h1>
+    <p class="hero-sub">
+      EduVerse connects ambitious students with world-class courses and instructors. Enroll today and accelerate your future.
+    </p>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-number">12K+</span>
+        <span class="stat-label">Students Enrolled</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">280+</span>
+        <span class="stat-label">Courses Available</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">98%</span>
+        <span class="stat-label">Satisfaction Rate</span>
+      </div>
+    </div>
+    <div class="hero-actions">
+      <a href="#courses" class="btn-primary">Explore Courses</a>
+      <a href="#register" class="btn-outline">Register Now</a>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="hero-card-stack">
+      <!-- Main course card -->
+      <div class="visual-card vc-main">
+        <div class="vc-label">Currently Enrolled</div>
+        <div class="vc-course">Full-Stack Web Development</div>
+        <div class="vc-meta">12 Modules · 48 Hours · Certificate</div>
+        <div class="vc-progress-bar"><div class="vc-progress-fill"></div></div>
+        <div class="vc-progress-label"><span>Progress</span><span>68%</span></div>
+        <div class="vc-avatars">
+          <div class="vc-avatar">AK</div>
+          <div class="vc-avatar">MJ</div>
+          <div class="vc-avatar">RP</div>
+          <div class="vc-avatar">+9</div>
+        </div>
+        <div class="vc-enrolled">1,247 students enrolled this month</div>
+      </div>
+      <!-- Small cards -->
+      <div class="visual-card vc-small1">
+        <div class="icon">🏆</div>
+        <div class="title">Top Rated</div>
+        <div class="sub">4.9 ★ Average across all courses</div>
+      </div>
+      <div class="visual-card vc-small2">
+        <div class="vc-small2-title">Specializations</div>
+        <div class="badge-row">
+          <span class="mini-badge">Tech</span>
+          <span class="mini-badge">Design</span>
+          <span class="mini-badge">Business</span>
+          <span class="mini-badge">Science</span>
+        </div>
+      </div>
+      <div class="visual-card vc-small3">
+        <div class="rating-num">4.9</div>
+        <div class="stars">★★★★★</div>
+        <div class="rating-sub">2,800+ reviews</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section features">
+  <div class="section-header">
+    <div class="section-tag">Why EduVerse</div>
+    <h2 class="section-title">Built for the Modern Learner</h2>
+    <p class="section-sub">Everything you need to succeed, in one seamlessly designed platform.</p>
+  </div>
+  <div class="features-grid">
+    <div class="feature-item">
+      <div class="feature-icon">🎓</div>
+      <div class="feature-title">Expert Instructors</div>
+      <p class="feature-text">Learn from industry practitioners with decades of real-world experience across every field.</p>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon">📱</div>
+      <div class="feature-title">Learn Anywhere</div>
+      <p class="feature-text">Access courses on any device, anytime. Download lessons for offline learning on the go.</p>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon">🏅</div>
+      <div class="feature-title">Accredited Certificates</div>
+      <p class="feature-text">Earn certificates recognized by top employers globally upon course completion.</p>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon">🤝</div>
+      <div class="feature-title">Mentorship Support</div>
+      <p class="feature-text">Get personalized guidance from mentors and a thriving peer community around the clock.</p>
+    </div>
+  </div>
+</section>
+
+<!-- COURSES -->
+<section class="section" id="courses">
+  <div class="section-header">
+    <div class="section-tag">Featured Courses</div>
+    <h2 class="section-title">Explore Our Programs</h2>
+    <p class="section-sub">From technology to the arts — find the course that ignites your potential.</p>
+  </div>
+  <div class="courses-grid">
+    <div class="course-card">
+      <div class="course-thumb thumb-1">
+        💻
+        <span class="course-badge">Best Seller</span>
+      </div>
+      <div class="course-body">
+        <div class="course-cat">Technology</div>
+        <div class="course-name">Full-Stack Web Development</div>
+        <div class="course-meta"><span>⏱ 48h</span><span>★ 4.9</span><span>👤 1.2K</span></div>
+        <div class="course-footer">
+          <span class="course-price">₹12,999</span>
+          <button class="enroll-btn" onclick="document.getElementById('register').scrollIntoView({behavior:'smooth'})">Enroll</button>
+        </div>
+      </div>
+    </div>
+    <div class="course-card">
+      <div class="course-thumb thumb-2">
+        🎨
+        <span class="course-badge">New</span>
+      </div>
+      <div class="course-body">
+        <div class="course-cat">Design</div>
+        <div class="course-name">UI/UX Design Mastery</div>
+        <div class="course-meta"><span>⏱ 36h</span><span>★ 4.8</span><span>👤 890</span></div>
+        <div class="course-footer">
+          <span class="course-price">₹9,999</span>
+          <button class="enroll-btn" onclick="document.getElementById('register').scrollIntoView({behavior:'smooth'})">Enroll</button>
+        </div>
+      </div>
+    </div>
+    <div class="course-card">
+      <div class="course-thumb thumb-3">
+        📊
+        <span class="course-badge">Popular</span>
+      </div>
+      <div class="course-body">
+        <div class="course-cat">Business</div>
+        <div class="course-name">Data Science & Analytics</div>
+        <div class="course-meta"><span>⏱ 52h</span><span>★ 4.9</span><span>👤 2.1K</span></div>
+        <div class="course-footer">
+          <span class="course-price">₹14,999</span>
+          <button class="enroll-btn" onclick="document.getElementById('register').scrollIntoView({behavior:'smooth'})">Enroll</button>
+        </div>
+      </div>
+    </div>
+    <div class="course-card">
+      <div class="course-thumb thumb-4">
+        🌱
+        <span class="course-badge">Trending</span>
+      </div>
+      <div class="course-body">
+        <div class="course-cat">Science</div>
+        <div class="course-name">Environmental Studies & Sustainability</div>
+        <div class="course-meta"><span>⏱ 28h</span><span>★ 4.7</span><span>👤 670</span></div>
+        <div class="course-footer">
+          <span class="course-price">₹7,999</span>
+          <button class="enroll-btn" onclick="document.getElementById('register').scrollIntoView({behavior:'smooth'})">Enroll</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REGISTRATION -->
+<section id="register">
+  <div class="register-inner">
+    <div class="register-header">
+      <div class="register-tag">✦ Admissions 2025–26</div>
+      <h2 class="register-title">Student Registration</h2>
+      <p class="register-sub">Complete the form below to apply for your chosen course. Our team will review and contact you within 48 hours.</p>
+    </div>
+
+    <div class="form-card" id="formCard">
+      <form id="admissionForm" novalidate>
+        <div class="form-grid">
+
+          <div class="form-group">
+            <label class="form-label">First Name <span>*</span></label>
+            <input class="form-input" type="text" id="firstName" placeholder="e.g. Arjun" />
+            <span class="error-msg" id="firstNameErr">Please enter your first name.</span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Last Name <span>*</span></label>
+            <input class="form-input" type="text" id="lastName" placeholder="e.g. Kumar" />
+            <span class="error-msg" id="lastNameErr">Please enter your last name.</span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Email Address <span>*</span></label>
+            <input class="form-input" type="email" id="email" placeholder="you@example.com" />
+            <span class="error-msg" id="emailErr">Please enter a valid email address.</span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Phone Number <span>*</span></label>
+            <input class="form-input" type="tel" id="phone" placeholder="+91 9876543210" />
+            <span class="error-msg" id="phoneErr">Please enter a valid phone number.</span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Date of Birth <span>*</span></label>
+            <input class="form-input" type="date" id="dob" />
+            <span class="error-msg" id="dobErr">Please select your date of birth.</span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Gender</label>
+            <select class="form-select" id="gender">
+              <option value="">Select gender</option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Non-binary</option>
+              <option>Prefer not to say</option>
+            </select>
+          </div>
+
+          <div class="form-group full">
+            <label class="form-label">Course Applying For <span>*</span></label>
+            <select class="form-select" id="course">
+              <option value="">— Select a course —</option>
+              <option>Full-Stack Web Development</option>
+              <option>UI/UX Design Mastery</option>
+              <option>Data Science & Analytics</option>
+              <option>Environmental Studies & Sustainability</option>
+              <option>Digital Marketing Pro</option>
+              <option>Artificial Intelligence & Machine Learning</option>
+              <option>Graphic Design Fundamentals</option>
+              <option>Business Management & Leadership</option>
+            </select>
+            <span class="error-msg" id="courseErr">Please select a course.</span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Highest Qualification <span>*</span></label>
+            <select class="form-select" id="qualification">
+              <option value="">Select qualification</option>
+              <option>High School (10th)</option>
+              <option>Higher Secondary (12th)</option>
+              <option>Diploma</option>
+              <option>Bachelor's Degree</option>
+              <option>Master's Degree</option>
+              <option>PhD</option>
+            </select>
+            <span class="error-msg" id="qualErr">Please select your qualification.</span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Preferred Start Date</label>
+            <select class="form-select" id="startDate">
+              <option value="">Choose intake</option>
+              <option>July 2025</option>
+              <option>September 2025</option>
+              <option>January 2026</option>
+              <option>March 2026</option>
+            </select>
+          </div>
+
+          <div class="form-group full">
+            <label class="form-label">Why do you want to join this course?</label>
+            <textarea class="form-textarea" id="motivation" placeholder="Tell us about your goals and what you hope to achieve..."></textarea>
+          </div>
+
+          <div class="form-group full">
+            <div class="checkbox-group">
+              <input type="checkbox" id="terms" />
+              <label class="checkbox-label" for="terms">
+                I agree to the <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>. I consent to EduVerse contacting me regarding my application and course updates.
+              </label>
+            </div>
+            <span class="error-msg" id="termsErr">You must agree to the terms to proceed.</span>
+          </div>
+
+        </div>
+
+        <div class="form-submit">
+          <span class="submit-note">🔒 Your information is encrypted and secure</span>
+          <button type="submit" class="submit-btn">Submit Application →</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Success -->
+    <div class="success-msg" id="successMsg">
+      <div class="success-icon">🎉</div>
+      <h3>Application Submitted!</h3>
+      <p>Thank you for registering with EduVerse. Our admissions team will review your application and reach out within <strong style="color:var(--gold)">48 hours</strong>. Check your email for a confirmation.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Edu<span>Verse</span></div>
+  <div class="footer-text">© 2025 EduVerse. All rights reserved. Empowering learners worldwide.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
